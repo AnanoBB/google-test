@@ -1,0 +1,203 @@
+[1607861966.464][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 14384
+[1607861966.464][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1607861966.650][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/ananoberishvili/Desktop/google-test/build/downloads/1607861965044_25228_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/ananoberishvili/Desktop/google-test/build/downloads/1607861965044_25228_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1607861966.652][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/ananoberishvili/Desktop/google-test/build/downloads/1607861965044_25228_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607861966.652][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607861966.653][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/2w/nqylrpt568x0z0s3bt2yzj200000gn/T/.com.google.Chrome.7Giciw data:,
+[1607861968.344][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1607861968.359][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1607861968.388][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "/var/folders/2w/nqylrpt568x0z0s3bt2yzj200000gn/T/.com.google.Chrome.7Giciw"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64066"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9f270f7dac3f855bf642a161f0f58c56"
+}
+[1607861968.467][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607861968.467][INFO]: Waiting for pending navigations...
+[1607861968.499][INFO]: Done waiting for pending navigations. Status: ok
+[1607861968.604][INFO]: Waiting for pending navigations...
+[1607861968.605][INFO]: Done waiting for pending navigations. Status: ok
+[1607861968.605][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1607861968.609][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1607861968.609][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE SetTimeouts
+[1607861968.616][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND Navigate {
+   "url": "https://the-internet.herokuapp.com/add_remove_elements/"
+}
+[1607861968.616][INFO]: Waiting for pending navigations...
+[1607861968.617][INFO]: Done waiting for pending navigations. Status: ok
+[1607861969.451][INFO]: Waiting for pending navigations...
+[1607861970.982][INFO]: Done waiting for pending navigations. Status: ok
+[1607861970.983][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE Navigate
+[1607861971.046][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#content h3"
+}
+[1607861971.046][INFO]: Waiting for pending navigations...
+[1607861971.047][INFO]: Done waiting for pending navigations. Status: ok
+[1607861971.053][INFO]: Waiting for pending navigations...
+[1607861971.054][INFO]: Done waiting for pending navigations. Status: ok
+[1607861971.054][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "26f110db-37ed-468d-ad3a-52bb7eaeed3c"
+}
+[1607861971.058][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND GetElementTagName {
+   "id": "26f110db-37ed-468d-ad3a-52bb7eaeed3c"
+}
+[1607861971.058][INFO]: Waiting for pending navigations...
+[1607861971.059][INFO]: Done waiting for pending navigations. Status: ok
+[1607861971.060][INFO]: Waiting for pending navigations...
+[1607861971.060][INFO]: Done waiting for pending navigations. Status: ok
+[1607861971.060][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE GetElementTagName "h3"
+[1607861971.062][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND GetElementText {
+   "id": "26f110db-37ed-468d-ad3a-52bb7eaeed3c"
+}
+[1607861971.062][INFO]: Waiting for pending navigations...
+[1607861971.063][INFO]: Done waiting for pending navigations. Status: ok
+[1607861971.071][INFO]: Waiting for pending navigations...
+[1607861971.072][INFO]: Done waiting for pending navigations. Status: ok
+[1607861971.072][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE GetElementText "Add/Remove Elements"
+[1607861971.078][INFO]: [9f270f7dac3f855bf642a161f0f58c56] COMMAND Quit {
+
+}
+[1607861971.128][INFO]: [9f270f7dac3f855bf642a161f0f58c56] RESPONSE Quit

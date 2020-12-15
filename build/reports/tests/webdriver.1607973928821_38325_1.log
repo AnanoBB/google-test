@@ -1,0 +1,383 @@
+[1607973928.893][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 40856
+[1607973928.893][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1607973929.079][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/ananoberishvili/Desktop/google-test/build/downloads/1607973928378_38325_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/ananoberishvili/Desktop/google-test/build/downloads/1607973928378_38325_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1607973929.081][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/ananoberishvili/Desktop/google-test/build/downloads/1607973928378_38325_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1607973929.081][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1607973929.081][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/2w/nqylrpt568x0z0s3bt2yzj200000gn/T/.com.google.Chrome.nXMpl1 data:,
+[1607973930.078][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1607973930.111][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1607973930.123][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.88",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "/var/folders/2w/nqylrpt568x0z0s3bt2yzj200000gn/T/.com.google.Chrome.nXMpl1"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49810"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f5e64021c2b9e9ac6021b77843b0298c"
+}
+[1607973930.171][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1607973930.171][INFO]: Waiting for pending navigations...
+[1607973930.173][INFO]: Done waiting for pending navigations. Status: ok
+[1607973930.278][INFO]: Waiting for pending navigations...
+[1607973930.278][INFO]: Done waiting for pending navigations. Status: ok
+[1607973930.278][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1607973930.283][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1607973930.283][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE SetTimeouts
+[1607973930.288][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND Navigate {
+   "url": "http://the-internet.herokuapp.com/shifting_content/menu"
+}
+[1607973930.289][INFO]: Waiting for pending navigations...
+[1607973930.289][INFO]: Done waiting for pending navigations. Status: ok
+[1607973930.699][INFO]: Waiting for pending navigations...
+[1607973932.607][INFO]: Done waiting for pending navigations. Status: ok
+[1607973932.607][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE Navigate
+[1607973932.658][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973932.658][INFO]: Waiting for pending navigations...
+[1607973932.659][INFO]: Done waiting for pending navigations. Status: ok
+[1607973932.668][INFO]: Waiting for pending navigations...
+[1607973932.668][INFO]: Done waiting for pending navigations. Status: ok
+[1607973932.668][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973932.911][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973932.911][INFO]: Waiting for pending navigations...
+[1607973932.912][INFO]: Done waiting for pending navigations. Status: ok
+[1607973932.918][INFO]: Waiting for pending navigations...
+[1607973932.918][INFO]: Done waiting for pending navigations. Status: ok
+[1607973932.918][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973933.126][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973933.127][INFO]: Waiting for pending navigations...
+[1607973933.128][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.133][INFO]: Waiting for pending navigations...
+[1607973933.133][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.133][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973933.344][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973933.344][INFO]: Waiting for pending navigations...
+[1607973933.345][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.351][INFO]: Waiting for pending navigations...
+[1607973933.351][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.351][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973933.562][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973933.562][INFO]: Waiting for pending navigations...
+[1607973933.563][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.569][INFO]: Waiting for pending navigations...
+[1607973933.570][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.570][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973933.779][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973933.779][INFO]: Waiting for pending navigations...
+[1607973933.780][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.784][INFO]: Waiting for pending navigations...
+[1607973933.785][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.785][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973933.992][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973933.992][INFO]: Waiting for pending navigations...
+[1607973933.992][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.996][INFO]: Waiting for pending navigations...
+[1607973933.996][INFO]: Done waiting for pending navigations. Status: ok
+[1607973933.996][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973934.202][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973934.207][INFO]: Waiting for pending navigations...
+[1607973934.209][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.216][INFO]: Waiting for pending navigations...
+[1607973934.217][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.217][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973934.428][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973934.428][INFO]: Waiting for pending navigations...
+[1607973934.429][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.434][INFO]: Waiting for pending navigations...
+[1607973934.435][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.435][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973934.646][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973934.646][INFO]: Waiting for pending navigations...
+[1607973934.647][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.653][INFO]: Waiting for pending navigations...
+[1607973934.654][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.654][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973934.865][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973934.865][INFO]: Waiting for pending navigations...
+[1607973934.866][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.871][INFO]: Waiting for pending navigations...
+[1607973934.872][INFO]: Done waiting for pending navigations. Status: ok
+[1607973934.872][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973935.079][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973935.080][INFO]: Waiting for pending navigations...
+[1607973935.081][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.086][INFO]: Waiting for pending navigations...
+[1607973935.087][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.087][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973935.293][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973935.293][INFO]: Waiting for pending navigations...
+[1607973935.294][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.300][INFO]: Waiting for pending navigations...
+[1607973935.300][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.300][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973935.507][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973935.507][INFO]: Waiting for pending navigations...
+[1607973935.509][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.517][INFO]: Waiting for pending navigations...
+[1607973935.518][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.518][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973935.727][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973935.727][INFO]: Waiting for pending navigations...
+[1607973935.729][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.734][INFO]: Waiting for pending navigations...
+[1607973935.735][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.735][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973935.944][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973935.944][INFO]: Waiting for pending navigations...
+[1607973935.945][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.950][INFO]: Waiting for pending navigations...
+[1607973935.951][INFO]: Done waiting for pending navigations. Status: ok
+[1607973935.951][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973936.159][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973936.159][INFO]: Waiting for pending navigations...
+[1607973936.162][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.167][INFO]: Waiting for pending navigations...
+[1607973936.168][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.168][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973936.376][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973936.376][INFO]: Waiting for pending navigations...
+[1607973936.377][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.382][INFO]: Waiting for pending navigations...
+[1607973936.383][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.383][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973936.589][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND FindElement {
+   "using": "css selector",
+   "value": "ul\\ li\\:first\\-child"
+}
+[1607973936.589][INFO]: Waiting for pending navigations...
+[1607973936.590][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.595][INFO]: Waiting for pending navigations...
+[1607973936.596][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.596][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"ul\ li\:first\-child"}
+  (Session info: chrome=87.0.4280.88)
+[1607973936.809][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1607973936.809][INFO]: Waiting for pending navigations...
+[1607973936.810][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.813][INFO]: Waiting for pending navigations...
+[1607973936.813][INFO]: Done waiting for pending navigations. Status: ok
+[1607973936.813][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE ExecuteScript "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+[1607973936.816][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND Screenshot {
+
+}
+[1607973936.816][INFO]: Waiting for pending navigations...
+[1607973936.817][INFO]: Done waiting for pending navigations. Status: ok
+[1607973937.274][INFO]: Waiting for pending navigations...
+[1607973937.274][INFO]: Done waiting for pending navigations. Status: ok
+[1607973937.274][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACqwAAAViCAYAAAB9RE8/AAABLGlDQ1BTa2lhAAAokX2RPUvDUBSGH4uLVURQ0cEhTrr40VaqBR1ssUXcWoXqlqahiG0MaUT3ri7+A2dnR39AZwUnBxd3QXBwqe9NhwSknsvJ++TNuTfn3gupRRSpGeh4YVCtFK366ZlFImyn6zM6x..."
+[1607973937.330][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] COMMAND Quit {
+
+}
+[1607973937.381][INFO]: [f5e64021c2b9e9ac6021b77843b0298c] RESPONSE Quit
